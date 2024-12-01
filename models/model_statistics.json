@@ -1,0 +1,387 @@
+{
+    "Depression": {
+        "cv_scores": {
+            "mean": 0.767375,
+            "std": 0.0073569694847810865
+        },
+        "accuracy": 0.7705,
+        "roc_auc": 0.6674099188531516,
+        "classification_report": {
+            "0.0": {
+                "precision": 0.8186558516801854,
+                "recall": 0.9063502245028865,
+                "f1-score": 0.8602739726027397,
+                "support": 1559.0
+            },
+            "1.0": {
+                "precision": 0.46715328467153283,
+                "recall": 0.29024943310657597,
+                "f1-score": 0.35804195804195804,
+                "support": 441.0
+            },
+            "accuracy": 0.7705,
+            "macro avg": {
+                "precision": 0.6429045681758592,
+                "recall": 0.5982998288047312,
+                "f1-score": 0.6091579653223489,
+                "support": 2000.0
+            },
+            "weighted avg": {
+                "precision": 0.7411495356547776,
+                "recall": 0.7705,
+                "f1-score": 0.7495318133920874,
+                "support": 2000.0
+            }
+        },
+        "top_features": [
+            {
+                "feature": "bmi",
+                "importance": 0.06750001674979768
+            },
+            {
+                "feature": "age_at_exam",
+                "importance": 0.06718191240890953
+            },
+            {
+                "feature": "hdl",
+                "importance": 0.06568633216379646
+            },
+            {
+                "feature": "tg",
+                "importance": 0.06378467600724258
+            },
+            {
+                "feature": "a1c",
+                "importance": 0.06256563773616089
+            },
+            {
+                "feature": "fbs",
+                "importance": 0.06034908526126698
+            },
+            {
+                "feature": "sbp",
+                "importance": 0.0603297198093889
+            },
+            {
+                "feature": "ldl",
+                "importance": 0.06024691789003233
+            },
+            {
+                "feature": "total_cholesterol",
+                "importance": 0.06014684982510788
+            },
+            {
+                "feature": "sex_male",
+                "importance": 0.040693224436040294
+            }
+        ]
+    },
+    "HTN": {
+        "cv_scores": {
+            "mean": 0.713875,
+            "std": 0.009407443861113404
+        },
+        "accuracy": 0.7125,
+        "roc_auc": 0.7565739012846517,
+        "classification_report": {
+            "0.0": {
+                "precision": 0.6139817629179332,
+                "recall": 0.5572413793103448,
+                "f1-score": 0.584237165582068,
+                "support": 725.0
+            },
+            "1.0": {
+                "precision": 0.7608047690014903,
+                "recall": 0.8007843137254902,
+                "f1-score": 0.7802827665265571,
+                "support": 1275.0
+            },
+            "accuracy": 0.7125,
+            "macro avg": {
+                "precision": 0.6873932659597117,
+                "recall": 0.6790128465179175,
+                "f1-score": 0.6822599660543125,
+                "support": 2000.0
+            },
+            "weighted avg": {
+                "precision": 0.7075814292962009,
+                "recall": 0.7125,
+                "f1-score": 0.7092162361841798,
+                "support": 2000.0
+            }
+        },
+        "top_features": [
+            {
+                "feature": "age_at_exam",
+                "importance": 0.14442321472530234
+            },
+            {
+                "feature": "sbp",
+                "importance": 0.14091844592318756
+            },
+            {
+                "feature": "bmi",
+                "importance": 0.10386104870735097
+            },
+            {
+                "feature": "fbs",
+                "importance": 0.09732178154341652
+            },
+            {
+                "feature": "a1c",
+                "importance": 0.09445468531490109
+            },
+            {
+                "feature": "ldl",
+                "importance": 0.08756650644611938
+            },
+            {
+                "feature": "tg",
+                "importance": 0.08546029820630943
+            },
+            {
+                "feature": "total_cholesterol",
+                "importance": 0.0848046924586583
+            },
+            {
+                "feature": "hdl",
+                "importance": 0.0766011744889352
+            },
+            {
+                "feature": "sex_male",
+                "importance": 0.019021260732120716
+            }
+        ]
+    },
+    "OA": {
+        "cv_scores": {
+            "mean": 0.696875,
+            "std": 0.02109502310972899
+        },
+        "accuracy": 0.7015,
+        "roc_auc": 0.7167456511251737,
+        "classification_report": {
+            "0.0": {
+                "precision": 0.7682926829268293,
+                "recall": 0.7962825278810409,
+                "f1-score": 0.7820372398685652,
+                "support": 1345.0
+            },
+            "1.0": {
+                "precision": 0.5478547854785478,
+                "recall": 0.5068702290076336,
+                "f1-score": 0.5265662172878668,
+                "support": 655.0
+            },
+            "accuracy": 0.7015,
+            "macro avg": {
+                "precision": 0.6580737342026886,
+                "recall": 0.6515763784443372,
+                "f1-score": 0.654301728578216,
+                "support": 2000.0
+            },
+            "weighted avg": {
+                "precision": 0.6960992715125172,
+                "recall": 0.7015,
+                "f1-score": 0.6983704799733864,
+                "support": 2000.0
+            }
+        },
+        "top_features": [
+            {
+                "feature": "age_at_exam",
+                "importance": 0.10214054485149855
+            },
+            {
+                "feature": "bmi",
+                "importance": 0.07114443925078709
+            },
+            {
+                "feature": "tg",
+                "importance": 0.06400755674620963
+            },
+            {
+                "feature": "fbs",
+                "importance": 0.06359929292579053
+            },
+            {
+                "feature": "sbp",
+                "importance": 0.06276602486333478
+            },
+            {
+                "feature": "a1c",
+                "importance": 0.062268227755680465
+            },
+            {
+                "feature": "total_cholesterol",
+                "importance": 0.062144203296356164
+            },
+            {
+                "feature": "ldl",
+                "importance": 0.06091396537610673
+            },
+            {
+                "feature": "hdl",
+                "importance": 0.06066323785277544
+            },
+            {
+                "feature": "sex_male",
+                "importance": 0.03096594691698646
+            }
+        ]
+    },
+    "COPD": {
+        "cv_scores": {
+            "mean": 0.891125,
+            "std": 0.003695436374773609
+        },
+        "accuracy": 0.8945,
+        "roc_auc": 0.7403159361014789,
+        "classification_report": {
+            "0.0": {
+                "precision": 0.9243562231759657,
+                "recall": 0.9609592861126603,
+                "f1-score": 0.9423024336888159,
+                "support": 1793.0
+            },
+            "1.0": {
+                "precision": 0.4852941176470588,
+                "recall": 0.3188405797101449,
+                "f1-score": 0.3848396501457726,
+                "support": 207.0
+            },
+            "accuracy": 0.8945,
+            "macro avg": {
+                "precision": 0.7048251704115123,
+                "recall": 0.6398999329114026,
+                "f1-score": 0.6635710419172942,
+                "support": 2000.0
+            },
+            "weighted avg": {
+                "precision": 0.8789132952537239,
+                "recall": 0.8945,
+                "f1-score": 0.8846050355921109,
+                "support": 2000.0
+            }
+        },
+        "top_features": [
+            {
+                "feature": "age_at_exam",
+                "importance": 0.07585797492154568
+            },
+            {
+                "feature": "bmi",
+                "importance": 0.053875146831318874
+            },
+            {
+                "feature": "a1c",
+                "importance": 0.05379519028282332
+            },
+            {
+                "feature": "hdl",
+                "importance": 0.053792538448550496
+            },
+            {
+                "feature": "total_cholesterol",
+                "importance": 0.053325665289336105
+            },
+            {
+                "feature": "fbs",
+                "importance": 0.052557209005529994
+            },
+            {
+                "feature": "tg",
+                "importance": 0.05142154987369048
+            },
+            {
+                "feature": "ldl",
+                "importance": 0.051160659910095385
+            },
+            {
+                "feature": "sbp",
+                "importance": 0.04844347391445914
+            },
+            {
+                "feature": "hypertension_medications_missing",
+                "importance": 0.04250374840820233
+            }
+        ]
+    },
+    "DIABETES": {
+        "cv_scores": {
+            "mean": 0.8644999999999999,
+            "std": 0.010196506754766573
+        },
+        "accuracy": 0.868,
+        "roc_auc": 0.9376789892278868,
+        "classification_report": {
+            "0": {
+                "precision": 0.8514173998044966,
+                "recall": 0.8860630722278738,
+                "f1-score": 0.86839481555334,
+                "support": 983.0
+            },
+            "1": {
+                "precision": 0.8853633572159673,
+                "recall": 0.8505408062930186,
+                "f1-score": 0.8676028084252758,
+                "support": 1017.0
+            },
+            "accuracy": 0.868,
+            "macro avg": {
+                "precision": 0.8683903785102319,
+                "recall": 0.8683019392604463,
+                "f1-score": 0.8679988119893078,
+                "support": 2000.0
+            },
+            "weighted avg": {
+                "precision": 0.8686789191482294,
+                "recall": 0.868,
+                "f1-score": 0.8679920799287194,
+                "support": 2000.0
+            }
+        },
+        "top_features": [
+            {
+                "feature": "a1c",
+                "importance": 0.21619549965637005
+            },
+            {
+                "feature": "fbs",
+                "importance": 0.20318838588099095
+            },
+            {
+                "feature": "total_cholesterol",
+                "importance": 0.0617255948615063
+            },
+            {
+                "feature": "ldl",
+                "importance": 0.06166666688694265
+            },
+            {
+                "feature": "bmi",
+                "importance": 0.0455322387141568
+            },
+            {
+                "feature": "age_at_exam",
+                "importance": 0.04404849210977929
+            },
+            {
+                "feature": "tg",
+                "importance": 0.0422472355198994
+            },
+            {
+                "feature": "hdl",
+                "importance": 0.04195373465284476
+            },
+            {
+                "feature": "sbp",
+                "importance": 0.03718234507423667
+            },
+            {
+                "feature": "hypertension_medications_missing",
+                "importance": 0.029196955353458634
+            }
+        ]
+    }
+}
