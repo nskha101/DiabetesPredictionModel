@@ -2,6 +2,12 @@
 
 An advanced machine learning ensemble model for predicting multiple health conditions using patient health data. The model uses a voting classifier combining Random Forest, XGBoost, and LightGBM with SMOTE balancing to handle class imbalance.
 
+## Dataset Information
+
+The data is taken from CPCSSN (Canadian Primary Care Sentinel Surveillance Network) which was curated to predict who will develop diabetes. The dataset consists of 3000 records with a balanced distribution - 50% having diabetes and 50% not having diabetes. This dataset is required to run the model.
+
+Note: The dataset (`diabetes_data.csv`) is not included in this repository. You will need to obtain the CPCSSN dataset to train the model.
+
 ## Conditions Predicted
 
 The model predicts risk for five health conditions:
